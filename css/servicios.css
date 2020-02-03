@@ -1,0 +1,42 @@
+.servicios {
+    width: 60%;
+    margin: 2em auto;
+    box-sizing: border-box;
+}
+
+.servicios table {
+    text-align: center;
+    border: 5px dashed black;
+    caption-side: bottom;
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    margin: 5px;
+}
+
+caption,
+th {
+    color: white;
+}
+
+table tr:nth-child(odd) {
+    background-color: #6a478c;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #a98ad9;
+    color: black;
+}
+
+table tr:first-child {
+    background-color: #3d2068;
+}
+
+.servicios img {
+    margin: 2% 14%;
+}
